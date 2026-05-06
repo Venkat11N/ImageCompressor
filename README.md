@@ -4,9 +4,8 @@ A React Native/Expo mobile application for compressing images.
 
 ## Features
 
-- **Image Compression**: Compress JPG, JPEG, PNG, HEIC, WebP, SVG, GIF, BMP images with adjustable quality
-- **Quality Control**: Adjustable quality slider (10-100%) for compression level
-- **Resolution Control**: Optional width/height settings for image resizing
+- **Image Compression**: Compress JPG, JPEG, PNG, HEIC, WebP, SVG, GIF, BMP images
+- **Fixed Quality**: Compresses images at 70% quality for optimal balance
 - **Share Results**: Easily share or save compressed images
 - **Progress Tracking**: Real-time compression progress
 
@@ -59,16 +58,14 @@ src/
 ## Usage
 
 1. **Select a File**: Tap "Choose a file" to select any file from your device
-2. **Adjust Settings**: Use the quality slider to set compression level (10-100%)
-3. **Compress**: Tap "Start Compression" to begin the process
-4. **View Results**: See original vs compressed size, reduction percentage, and time taken
-5. **Share/Save**: Use the "Share / Save" button to share the compressed file
+2. **Compress**: Tap "Start Compression" to begin the process at 70% quality
+3. **View Results**: See original vs compressed size, reduction percentage, and time taken
+4. **Share/Save**: Use the "Share / Save" button to share the compressed file
 
 ## Compression Options
 
-- **Quality**: 10-100 (higher = better quality, less compression)
-- **Format**: Automatic based on file type, with options for audio output format
-- **Resolution**: Optional width/height for images and videos (not yet implemented in UI)
+- **Quality**: Fixed at 70% for optimal balance between file size and image quality
+- **Format**: Automatic based on file type
 
 ## Development
 
